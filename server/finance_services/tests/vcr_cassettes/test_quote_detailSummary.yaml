@@ -1,0 +1,38 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://yfapi.net/v11/finance/quoteSummary/AAPL?modules=summaryDetail
+  response:
+    body:
+      string: '{"quoteSummary":{"result":[{"summaryDetail":{"maxAge":1,"priceHint":{"raw":2,"fmt":"2","longFmt":"2"},"previousClose":{"raw":174.31,"fmt":"174.31"},"open":{"raw":174.57,"fmt":"174.57"},"dayLow":{"raw":174.44,"fmt":"174.44"},"dayHigh":{"raw":178.485,"fmt":"178.49"},"regularMarketPreviousClose":{"raw":174.31,"fmt":"174.31"},"regularMarketOpen":{"raw":174.57,"fmt":"174.57"},"regularMarketDayLow":{"raw":174.44,"fmt":"174.44"},"regularMarketDayHigh":{"raw":178.485,"fmt":"178.49"},"dividendRate":{"raw":0.88,"fmt":"0.88"},"dividendYield":{"raw":0.005,"fmt":"0.50%"},"exDividendDate":{"raw":1643932800,"fmt":"2022-02-04"},"payoutRatio":{"raw":0.1434,"fmt":"14.34%"},"fiveYearAvgDividendYield":{"raw":1.11,"fmt":"1.11"},"beta":{"raw":1.187745,"fmt":"1.19"},"trailingPE":{"raw":29.665836,"fmt":"29.67"},"forwardPE":{"raw":27.20122,"fmt":"27.20"},"volume":{"raw":76545983,"fmt":"76.55M","longFmt":"76,545,983"},"regularMarketVolume":{"raw":76545983,"fmt":"76.55M","longFmt":"76,545,983"},"averageVolume":{"raw":94641195,"fmt":"94.64M","longFmt":"94,641,195"},"averageVolume10days":{"raw":89208430,"fmt":"89.21M","longFmt":"89,208,430"},"averageDailyVolume10Day":{"raw":89208430,"fmt":"89.21M","longFmt":"89,208,430"},"bid":{"raw":177.88,"fmt":"177.88"},"ask":{"raw":0.0,"fmt":"0.00"},"bidSize":{"raw":1200,"fmt":"1.2k","longFmt":"1,200"},"askSize":{"raw":900,"fmt":"900","longFmt":"900"},"marketCap":{"raw":2912033701888,"fmt":"2.91T","longFmt":"2,912,033,701,888"},"yield":{},"ytdReturn":{},"totalAssets":{},"expireDate":{},"strikePrice":{},"openInterest":{},"fiftyTwoWeekLow":{"raw":122.25,"fmt":"122.25"},"fiftyTwoWeekHigh":{"raw":182.94,"fmt":"182.94"},"priceToSalesTrailing12Months":{"raw":7.6972156,"fmt":"7.70"},"fiftyDayAverage":{"raw":167.3416,"fmt":"167.34"},"twoHundredDayAverage":{"raw":156.9505,"fmt":"156.95"},"trailingAnnualDividendRate":{"raw":0.865,"fmt":"0.87"},"trailingAnnualDividendYield":{"raw":0.0049624234,"fmt":"0.50%"},"navPrice":{},"currency":"USD","fromCurrency":null,"toCurrency":null,"lastMarket":null,"volume24Hr":{},"volumeAllCurrencies":{},"circulatingSupply":{},"algorithm":null,"maxSupply":{},"startDate":{},"tradeable":false}}],"error":null}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2173'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 05 Apr 2022 11:34:47 GMT
+      Via:
+      - 1.1 12092b1d863b1b4b20da0d09effe7b36.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 1HmobFtYknej9yPRyqiyV1owHNsJ_cW9kb80NZWR3nSj7sMmt7IGIw==
+      X-Amz-Cf-Pop:
+      - SIN2-P2
+      X-Amzn-Trace-Id:
+      - Root=1-624c2957-1d42a54623e152cc6f9f75f2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - QGtlqEgSCYcFm4Q=
+      x-amzn-RequestId:
+      - 926616eb-5e36-4a9b-a4a5-e3fe33d28641
+    status:
+      code: 200
+      message: OK
+version: 1
