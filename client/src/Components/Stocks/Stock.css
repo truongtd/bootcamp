@@ -1,0 +1,24 @@
+.Header {
+    background-color: black;
+    color: white;
+}
+.Green{
+    background-color: black;
+    color: #07CA07;
+    font-weight: bolder;
+}
+.Red{
+    background-color: black;
+    color: red;
+    font-weight: bolder;
+}
+.High{
+    background-color: black;
+    color: #C515C5;
+    font-weight: bolder;
+}
+.Low{
+    background-color: black;
+    color: #60B5DF;
+    font-weight: bolder;
+}

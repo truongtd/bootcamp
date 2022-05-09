@@ -1,0 +1,24 @@
+export const StockData=[
+    {
+        id:1,
+        Code:'UVXY',
+        Currency:'USD',
+        bid:12.54,
+        ask:12.54,
+        regularMarketPrice:12.55,
+        regularMarketChangePercent:1.78427,
+        regularMarketVolume:14777761,
+        regularMarketOpen:159.39,   
+    },
+    {
+        id:2,
+        Code:'GRAB',
+        Currency:'USD',
+        bid:12.54,
+        ask:12.54,
+        regularMarketPrice:12.55,
+        regularMarketChangePercent:1.78427,
+        regularMarketVolume:14777761,
+        regularMarketOpen:159.39,   
+    },
+]

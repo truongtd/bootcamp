@@ -1,0 +1,55 @@
+.body {
+ width: 100vw;
+ height: 100vh;
+ background-color:white;
+ display: grid;
+ grid-template-columns: 1fr 5fr 1fr;
+ grid-template-rows: 1fr 5fr 1fr;
+ grid-template-areas: 
+  "nav header header header"
+  "nav main main main" 
+  "nav footer footer footer";
+ gap:0px;
+}
+.logo {
+  background-color: aliceblue;
+  grid-row: 1;
+  grid-column: 1;
+  grid-area: logo;
+}
+.header {
+  background-color:#00B14F;
+  grid-row: 1;
+  grid-column: 2 ;
+  grid-area: header;
+}
+.nav {
+  background-color: #2F4050;
+  grid-row: 1;
+  grid-column: 1 ;
+  grid-area:nav;
+  margin: 0%;
+  padding: 0;
+}
+.main {
+  background-color:white;
+  grid-row: 2;
+  grid-column: 2;
+  grid-area:main;
+}
+.footer {
+  background-color:#00B14F;
+  grid-row: 3;
+  grid-column: 2 / -1;
+  grid-area: footer;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.Login{
+  float: right;
+}
+.Price{
+  float: left;
+}

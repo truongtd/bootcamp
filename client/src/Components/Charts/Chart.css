@@ -1,0 +1,13 @@
+.chart_symbol{
+    float: left;
+    padding-right: 30px;
+    
+} 
+.price_green{
+    color: #07CA07;
+    font-weight: bolder;
+}
+.price_red{
+    color: red;
+    font-weight: bolder;
+}

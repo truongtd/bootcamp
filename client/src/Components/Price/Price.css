@@ -1,0 +1,14 @@
+.Price {
+    width: 200px;
+    height:100px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;    
+}
+.Price_Down {
+    color: red;
+    font-weight:10px;
+}
+.Price_Up{
+    color: black;
+}
